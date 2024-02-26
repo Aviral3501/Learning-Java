@@ -21,6 +21,12 @@ public class intro {
         //or print the array by -->
         System.out.println(Arrays.toString(roll_no));
 
+
+        //or print the array using for each
+        for(int num : roll_no){
+            System.out.print(num);
+        }
+
         // int[] roll_no --> declaration of the variable
         //new int[5]; --> creating the object int the heap memory i.e. 5*int(bytes) of  space is allocated(may or may not be continuous)
 //            |
@@ -47,6 +53,10 @@ public class intro {
 //        but introduces a layer of indirection through object references.
 
 // for  more detail --> https://chat.openai.com/share/59dd8468-581d-4ec6-9178-38d1ae50495b
+
+
+
+
 
 
 

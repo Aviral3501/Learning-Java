@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c252559a-57cd-41c8-8001-d8d75381649f" name="Changes" comment="deleted out fodler">
+    <list default="true" id="c252559a-57cd-41c8-8001-d8d75381649f" name="Changes" comment="how are arrays stored in memory">
+      <change afterPath="$PROJECT_DIR$/src/Arrays/MultiDimensionalArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Arrays/intro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/intro.java" afterDir="false" />
     </list>
@@ -37,10 +38,23 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.intro">
+  <component name="RunManager" selected="Application.MultiDimensionalArray">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Learning Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiDimensionalArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.MultiDimensionalArray" />
+      <module name="Learning Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -67,6 +81,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiDimensionalArray" />
         <item itemvalue="Application.intro" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.demo" />
@@ -96,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708908682078</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="how are arrays stored in memory">
+      <created>1708948386672</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708948386672</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +135,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Arrays intro" />
     <MESSAGE value="deleted out fodler" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted out fodler" />
+    <MESSAGE value="how are arrays stored in memory" />
+    <option name="LAST_COMMIT_MESSAGE" value="how are arrays stored in memory" />
   </component>
 </project>
