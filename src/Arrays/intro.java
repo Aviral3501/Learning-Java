@@ -8,6 +8,7 @@ public class intro {
         //syntax of array declaration is --->
         //datatype[] var-name = new datatype[size];
 
+
         //eg store 5 roll no.
 
 //        int[] roll_no = new int[5]; //creates an integer array of length 5

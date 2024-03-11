@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c252559a-57cd-41c8-8001-d8d75381649f" name="Changes" comment="how are arrays stored in memory">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/MultiDimensionalArray.java" afterDir="false" />
+    <list default="true" id="c252559a-57cd-41c8-8001-d8d75381649f" name="Changes" comment="2 dimensional arrays">
+      <change afterPath="$PROJECT_DIR$/src/ArrayList/intro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hashmap/intro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Arrays/intro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/intro.java" afterDir="false" />
     </list>
@@ -38,7 +40,33 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MultiDimensionalArray">
+  <component name="RunManager" selected="Application.Arrays.demo">
+    <configuration name="ArrayList.intro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayList.intro" />
+      <module name="Learning Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArrayList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Arrays.demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.demo" />
+      <module name="Learning Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Learning Java" />
@@ -59,13 +87,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo" />
-      <module name="Learning Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="intro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.intro" />
       <module name="Learning Java" />
@@ -81,10 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MultiDimensionalArray" />
+        <item itemvalue="Application.Arrays.demo" />
         <item itemvalue="Application.intro" />
+        <item itemvalue="Application.ArrayList.intro" />
+        <item itemvalue="Application.MultiDimensionalArray" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.demo" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708948386672</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2 dimensional arrays">
+      <created>1708955394719</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708955394719</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,6 +165,7 @@
     <MESSAGE value="Arrays intro" />
     <MESSAGE value="deleted out fodler" />
     <MESSAGE value="how are arrays stored in memory" />
-    <option name="LAST_COMMIT_MESSAGE" value="how are arrays stored in memory" />
+    <MESSAGE value="2 dimensional arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 dimensional arrays" />
   </component>
 </project>
