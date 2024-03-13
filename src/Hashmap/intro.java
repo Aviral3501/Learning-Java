@@ -64,9 +64,85 @@ public class intro {
      How do we deal with Collision ??   ---->
      Well there are multiple ways  -->
      1) Chaining
-     2)
-     3)
-     4)
+     2) Open Addressing
+
+
+     1)CHAINING -------->
+
+     hashingFunction ( modulo , midSquare , etc) will generate the index where the value will be stored
+
+    |----------------------------------------------------------|
+    |       |  Kun   |       |  Avi  | Bar  |    Viper |       |
+    |__________________________________________________________|
+       |                |     ( same as last i.e. Ben )    |
+       |                |                                  |
+       v                v                                  v
+     |-----|         |------|                            |-----|
+     | V1  |         | V'1  |                            | Ben |
+     |-----|         |------|                            |_____|
+     | V2  |         | V'2  |
+     |-----|         |______|
+     | V3  |
+     |_____|
+
+    in chaining each value is stored as a node at an index , now if same index is generated for multiple elements
+    then each element is added next to the node(if present) else a single node is referenced e.g. Avi,Bar,Viper,Ben
+
+    worst case here is, it may become a linked list i.e. O(log n)  at a particular index.
+
+    ======================    WORST CASE SCENARIO    ====================================
+
+    |----------------------------------------------------------|
+    |       |        |       |       |      |          |       |
+    |__________________________________________________________|
+       |
+       |
+       v
+     |-----|
+     | V1  |
+     |-----|
+     | V2  |
+     |-----|
+     | V3  |
+     |-----|
+     | V4  |
+     |-----|      Linked list hi ban gayi , bt ho gyi
+     | V5  |
+     |_____|
+
+     So how do we prevent this, we try our best to make sure that we don't get multiple elements at the
+     same index.
+
+
+     2) Open Addressing
+
+     --> only one item per slot of the table
+
+                                |------------------|
+              h(33,0)---------->|       45         |  (cannot be inserted as element is already there)
+                                |------------------|
+              h(33,2)---------->|                  |  < can be inserted >  hurrah
+                                |------------------|
+                                |        434       |
+                                |------------------|
+                                |                  |
+                                |------------------|
+             h(33,1)----------->|       324        |  (cannot be inserted as element is already there)
+                                |------------------|
+                                |                  |
+                                |__________________|
+
+            h(33,n) ---> insert the element 33 , in n-1 th try   , for first try the index was 0 (filled) ,
+            on next iteration the index was 4(filled) , on next try the index was 2 (we can insert 33 there)
+
+            PROBING ---> Until we get the next possible index(empty) we will keep on iterating(hashing) and insert the value
+
+            Probing strategies --->
+            1)Linear Probing  (linearly jump all the indices , problem --> clustering)
+            2)Double Hashing
+
+
+
 
 
      */

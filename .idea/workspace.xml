@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c252559a-57cd-41c8-8001-d8d75381649f" name="Changes" comment="2 dimensional arrays">
-      <change afterPath="$PROJECT_DIR$/src/ArrayList/intro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hashmap/intro.java" afterDir="false" />
+    <list default="true" id="c252559a-57cd-41c8-8001-d8d75381649f" name="Changes" comment="hashmaps intro">
+      <change afterPath="$PROJECT_DIR$/src/Hashmap/intro2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/intro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/intro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hashmap/intro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hashmap/intro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +38,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Arrays.demo">
+  <component name="RunManager" selected="Application.intro2">
     <configuration name="ArrayList.intro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayList.intro" />
       <module name="Learning Java" />
@@ -63,13 +61,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Learning Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,13 +91,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="intro2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hashmap.intro2" />
+      <module name="Learning Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hashmap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.intro2" />
         <item itemvalue="Application.Arrays.demo" />
         <item itemvalue="Application.intro" />
         <item itemvalue="Application.ArrayList.intro" />
         <item itemvalue="Application.MultiDimensionalArray" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708955394719</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="hashmaps intro">
+      <created>1710127470061</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710127470061</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +177,7 @@
     <MESSAGE value="deleted out fodler" />
     <MESSAGE value="how are arrays stored in memory" />
     <MESSAGE value="2 dimensional arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 dimensional arrays" />
+    <MESSAGE value="hashmaps intro" />
+    <option name="LAST_COMMIT_MESSAGE" value="hashmaps intro" />
   </component>
 </project>
