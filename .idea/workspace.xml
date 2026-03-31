@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c252559a-57cd-41c8-8001-d8d75381649f" name="Changes" comment="hashmaps intro in detail basic">
-      <change afterPath="$PROJECT_DIR$/files/data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileHandling/ExceptionHandling.java" afterDir="false" />
+    <list default="true" id="c252559a-57cd-41c8-8001-d8d75381649f" name="Changes" comment="file handling">
+      <change afterPath="$PROJECT_DIR$/src/FileHandling/ReadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ScannerClassInputforTCS/introInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ScannerClassInputforTCS/introString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileHandling/ExceptionHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileHandling/ExceptionHandling.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,52 +47,13 @@
       <recent name="C:\Users\Aviral Singh\IdeaProjects\Learning Java\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExceptionHandling">
-    <configuration name="ArrayList.intro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayList.intro" />
-      <module name="Learning Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ArrayList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Arrays.demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.demo" />
-      <module name="Learning Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.introString">
     <configuration name="ExceptionHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FileHandling.ExceptionHandling" />
       <module name="Learning Java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="FileHandling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="intro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.intro" />
-      <module name="Learning Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,13 +74,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="introInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ScannerClassInputforTCS.introInteger" />
+      <module name="Learning Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ScannerClassInputforTCS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="introString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ScannerClassInputforTCS.introString" />
+      <module name="Learning Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ScannerClassInputforTCS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="introduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ScannerClassInputforTCS.introduction" />
+      <module name="Learning Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ScannerClassInputforTCS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.introString" />
+        <item itemvalue="Application.introInteger" />
+        <item itemvalue="Application.introduction" />
         <item itemvalue="Application.ExceptionHandling" />
         <item itemvalue="Application.intro2" />
-        <item itemvalue="Application.Arrays.demo" />
-        <item itemvalue="Application.intro" />
-        <item itemvalue="Application.ArrayList.intro" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710297898955</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="file handling">
+      <created>1720074533146</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720074533146</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +202,7 @@
     <MESSAGE value="2 dimensional arrays" />
     <MESSAGE value="hashmaps intro" />
     <MESSAGE value="hashmaps intro in detail basic" />
-    <option name="LAST_COMMIT_MESSAGE" value="hashmaps intro in detail basic" />
+    <MESSAGE value="file handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="file handling" />
   </component>
 </project>
